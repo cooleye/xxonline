@@ -1,0 +1,33 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d","extensions"],
+
+    "jsList" : [
+
+        "src/resource.js",
+
+        "src/Config/XXConfig.js",
+        "src/Config/EnemyData.js",
+
+        "src/Class/Utils.js",
+        "src/Class/Role.js",
+
+
+        "src/Layers/GameBaseLayer.js",
+        "src/Layers/MainLayer.js",
+        "src/Layers/XiuLianLayer.js",
+        "src/Layers/BreakPassLayer.js",
+        "src/Layers/StoreLayer.js",
+        "src/Layers/PKLayer.js",
+
+        "src/app.js"
+    ]
+}
